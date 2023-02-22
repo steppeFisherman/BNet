@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BNet" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorControlHighlight">@color/main_screen</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/status_bar</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- ToolBarStyle -->
+    <style name="toolBar">
+        <item name="android:layout_width">@dimen/size_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/status_bar</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodySmall</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--Font family: RobotoLine height: 22sp--><!-- styles.xml -->
+    <style name="txtName">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!--Font family: RobotoLine height: 17sp--><!-- styles.xml -->
+    <style name="txtDesc">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#AEB0B6</item>
+    </style>
+
+    <style name="btnBuy" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:layout_width">@dimen/size_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:text">@string/where_to_buy</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--ShapeableImageView--><!-- styles.xml -->
+    <style name="CornerSize8dp" parent="">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="CornerSizeRound" parent="">
+        <item name="cornerSize">50dp</item>
+    </style>
+
+</resources>

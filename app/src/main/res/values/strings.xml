@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BNet</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_connection_exception_message">Что то пошло не так, нет соединения</string>
+    <string name="database_exception_message">Что то пошло не так, ошибка базы данных</string>
+    <string name="http_exception_message">Что то пошло не так, ошибка сервера</string>
+    <string name="generic_exception_message">Что то пошло не так</string>
+    <string name="enter_key_word">введите ключевое слово</string>
+    <string name="list">Список</string>
+    <string name="hint">Название преперата, ключевое слово</string>
+    <string name="where_to_buy">Где купить</string>
+</resources>
